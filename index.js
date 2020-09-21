@@ -12,9 +12,32 @@ setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 }, 280000);
 //growtopian
+const gt = '719468514607628389'
 const shoob = '756767960684822548'
 const owo = '754394697224683591'
 const prefix = 'y'
+
+setInterval(() => {
+  client.channels.get(`${gt}`).send('/work');
+}, 300100);
+setInterval(() => {
+  client.channels.get(`${gt}`).send('/donate');
+}, 300100);
+setInterval(() => {
+  client.channels.get(`${gt}`).send('/atm');
+}, 365100);
+setInterval(() => {
+  client.channels.get(`${gt}`).send('/tackle');
+}, 605100);
+setInterval(() => {
+  client.channels.get(`${gt}`).send('/science');
+}, 315100);
+setInterval(() => {
+  client.channels.get(`${gt}`).send('/bonus');
+}, 4.32e+7);
+setInterval(() => {
+  client.channels.get(`${gt}`).send('/vend');
+}, 36e+5);
 setInterval(() => {
   client.channels.get(`${owo}`).send('owodaily');
 }, 8.64e+7);
