@@ -19,9 +19,6 @@ setInterval(() => {
   client.channels.get(`${owo}`).send('owodaily');
 }, 8.64e+7);
 setInterval(() => {
-  client.channels.get(`${owo}`).send('owopray <@546305510865895435>');
-}, 300200);
-setInterval(() => {
   client.channels.get(`${owo}`).send('oworep <@546305510865895435>');
 }, 8.64e+7);
 
