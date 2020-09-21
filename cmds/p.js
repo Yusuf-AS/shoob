@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
 
   const cmd = args.join(" ").split(" | ")
 
-  message.channel.send(`owopray ${sayang}`)
+  message.channel.send(`owopray ${sayang}`).then(msg => msg.delete(100))
   message.delete()
   };
 
