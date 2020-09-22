@@ -38,13 +38,6 @@ setInterval(() => {
 setInterval(() => {
   client.channels.get(`${gt}`).send('/vend');
 }, 36e+5);
-setInterval(() => {
-  client.channels.get(`${owo}`).send('owodaily');
-}, 8.64e+7);
-setInterval(() => {
-  client.channels.get(`${owo}`).send('oworep <@546305510865895435>');
-}, 8.64e+7);
-
 
 client.on('message', async message => {
   
