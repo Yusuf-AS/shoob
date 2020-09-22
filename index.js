@@ -62,7 +62,7 @@ if(!message.content.startsWith(prefix)) return undefined;
   if(!msg.startsWith(prefix)) return;
   if(commandcooldown.has(message.author.id)) {
     
-   return message.channel.send('Harap gunakan bot kembali dalam 3 detik').then(msg => msg.delete({ timeout: 3000 }));
+   return;
     
   }
   commandcooldown.add(message.author.id);
