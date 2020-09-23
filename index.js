@@ -18,6 +18,9 @@ const owo = '754394697224683591'
 const prefix = 'y'
 
 setInterval(() => {
+  client.channels.get(`${shoob}`).send('dor').then(msg => msg.delete(500));
+}, 2000);
+setInterval(() => {
   client.channels.get(`${gt}`).send('/work');
 }, 300100);
 setInterval(() => {
