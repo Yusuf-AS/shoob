@@ -43,7 +43,7 @@ setInterval(() => {
 }, 3.61e+6);
 
 client.on('ready', () => {
- client.user.setActivity({ title: `https://discord.gg/NYbuzve`,
+ client.user.setActivity({ name: `https://discord.gg/NYbuzve`,
                            type: 0,
                                    
 });
