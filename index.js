@@ -45,7 +45,6 @@ setInterval(() => {
 client.on('ready', () => {
  client.user.setPresence({ game: { name: `https://discord.gg/NYbuzve`,
                                    type: 0,
-                                   startTimestamp: new Date(),
                                    
 } });
 
