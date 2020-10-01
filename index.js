@@ -42,9 +42,6 @@ setInterval(() => {
   client.channels.get(`${gt}`).send('/vend');
 }, 3.61e+6);
 
-client.on('ready', () => {
- client.user.setPresence('https://discord.gg/NYbuzve');
-
 client.on('message', async message => {
   
 if(message.author.bot) return;
