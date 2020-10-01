@@ -18,29 +18,29 @@ const owo = '754394697224683591'
 const prefix = 'y'
 
 setInterval(() => {
-  client.channels.get(`${shoob}`).send('dor').then(msg => msg.delete(500));
-}, 2000);
+  client.channels.get(`${shoob}`).send('dor').then(msg => msg.delete(2000));
+}, 5000);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/work');
-}, 300100);
+}, 301000);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/donate');
-}, 300100);
+}, 301000;
 setInterval(() => {
   client.channels.get(`${gt}`).send('/atm');
-}, 365100);
+}, 361000);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/tackle');
 }, 605100);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/science');
-}, 315100);
+}, 301000);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/bonus');
-}, 4.32e+7);
+}, 4.31e+7);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/vend');
-}, 36e+5);
+}, 3.61e+6);
 
 client.on('message', async message => {
   
