@@ -22,10 +22,10 @@ setInterval(() => {
 }, 5001);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/work');
-}, 301000);
+}, 301500);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/donate');
-}, 301000);
+}, 302500);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/atm');
 }, 361000);
@@ -34,7 +34,7 @@ setInterval(() => {
 }, 605100);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/science');
-}, 301000);
+}, 303500);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/bonus');
 }, 4.31e+7);
