@@ -43,10 +43,10 @@ setInterval(() => {
 }, 3.61e+6);
 
 client.on('ready', () => {
- client.user.setPresence({ game: { name: `https://discord.gg/NYbuzve`,
-                                   type: 0,
+ client.user.setActivity({ title: `https://discord.gg/NYbuzve`,
+                           type: 0,
                                    
-} });
+});
 
 client.on('message', async message => {
   
