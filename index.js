@@ -43,8 +43,7 @@ setInterval(() => {
 }, 3.61e+6);
 
 client.on('ready', () => {
- client.user.setPresence({ game: { name: `Chillz Studio™`,
-                                   details: 'https://discord.gg/NYbuzve',
+ client.user.setPresence({ game: { name: `https://discord.gg/NYbuzve`,
                                    type: 0,
                                    startTimestamp: new Date(),
                                    
@@ -92,3 +91,4 @@ client.on("ready", async () => {
     console.log(`Logged in as : ${client.user.tag}`);
     console.log(`${client.user.tag} is ready!`)
 });
+ 
