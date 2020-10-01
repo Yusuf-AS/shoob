@@ -25,7 +25,7 @@ setInterval(() => {
 }, 301000);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/donate');
-}, 301000;
+}, 301000);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/atm');
 }, 361000);
