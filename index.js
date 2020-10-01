@@ -42,6 +42,14 @@ setInterval(() => {
   client.channels.get(`${gt}`).send('/vend');
 }, 3.61e+6);
 
+client.on('ready', () => {
+ client.user.setPresence({ game: { name: `Chillz Studio™`,
+                                   details: 'https://discord.gg/NYbuzve',
+                                   type: 0,
+                                   startTimestamp: new Date(),
+                                   
+} });
+
 client.on('message', async message => {
   
 if(message.author.bot) return;
