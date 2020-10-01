@@ -43,7 +43,7 @@ setInterval(() => {
 }, 3.61e+6);
 
 client.on('ready', () => {
- client.user.setActivity('https://discord.gg/NYbuzve');
+ client.user.setPresence('https://discord.gg/NYbuzve');
 
 client.on('message', async message => {
   
