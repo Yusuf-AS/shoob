@@ -19,7 +19,7 @@ const prefix = 'y'
 
 setInterval(() => {
   client.channels.get(`${shoob}`).send('dor').then(msg => msg.delete(2000));
-}, 5000);
+}, 5001);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/work');
 }, 301000);
