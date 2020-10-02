@@ -22,13 +22,13 @@ setInterval(() => {
 }, 5001);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/work');
-}, 301500);
-setInterval(() => {
-  client.channels.get(`${gt}`).send('/donate');
 }, 302500);
 setInterval(() => {
+  client.channels.get(`${gt}`).send('/donate');
+}, 302600);
+setInterval(() => {
   client.channels.get(`${gt}`).send('/atm');
-}, 361000);
+}, 362000);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/tackle');
 }, 605100);
