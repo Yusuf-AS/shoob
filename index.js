@@ -64,7 +64,7 @@ if(!message.content.startsWith(prefix)) return undefined;
   commandcooldown.add(message.author.id);
   setTimeout(() => {
     commandcooldown.delete(message.author.id)
-  }, 3000);
+  }, 100);
   
   try {
     let commandFile = require(`./cmds/${cmd}.js`);
