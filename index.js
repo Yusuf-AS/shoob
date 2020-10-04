@@ -37,7 +37,7 @@ setInterval(() => {
 }, 303500);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/bonus');
-}, 4.35e+7);
+}, 4.33e+7);
 setInterval(() => {
   client.channels.get(`${gt}`).send('/vend');
 }, 3.61e+6);
